@@ -1,0 +1,4 @@
+exportPattern("^[[:alpha:]]+")
+import(drc,ggplot2,stringr,reshape2)
+importFrom("stats", "coef", "na.omit", "sd", "t.test")
+importFrom("utils", "head")
